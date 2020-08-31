@@ -69,4 +69,10 @@ public class ThemeParkTest {
         assertEquals(1, dodgems.getVisitCount());
         assertEquals(1, visitor.getVisitedAttractions().size());
     }
+
+    @Test
+    public void canGetReviews() {
+        assertEquals(7, (int) themePark.getReviews().get("Fun Zone"));
+    }
+
 }
