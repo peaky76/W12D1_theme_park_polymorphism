@@ -1,6 +1,8 @@
 package attractions;
 
 import behaviours.IReviewed;
+import behaviours.ISecurity;
+import people.Visitor;
 
 public abstract class Attraction implements IReviewed {
     private String name;
@@ -26,4 +28,6 @@ public abstract class Attraction implements IReviewed {
     }
 
     public void addVisit() { ++this.visitCount; }
+
+    public boolean isAllowedTo(Visitor visitor) { return true; }
 }

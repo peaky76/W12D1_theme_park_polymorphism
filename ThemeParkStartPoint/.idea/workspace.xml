@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f4a480cb-55e4-4f20-afa9-08b69dff4a93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Playground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.ThemeParkTest">
+  <component name="RunManager" selected="JUnit.All in ThemeParkStartPoint">
+    <configuration name="All in ThemeParkStartPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DodgemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -95,27 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stalls in ThemeParkStartPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stalls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stalls" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ThemeParkStartPoint" />
         <item itemvalue="JUnit.ThemeParkTest" />
         <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.attractions in ThemeParkStartPoint" />
         <item itemvalue="JUnit.DodgemTest" />
-        <item itemvalue="JUnit.stalls in ThemeParkStartPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -149,22 +147,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1598885913868" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1598888402596">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1598889675655">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598888402596" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1598888402595">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598889675655" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1598889675653">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598888402595" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1598888402594">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598889675653" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1598889675652">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598888402594" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1598888402596">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598889675652" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1598889675654">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598888402596" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598889675654" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598885718537">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
