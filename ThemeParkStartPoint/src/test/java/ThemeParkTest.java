@@ -46,11 +46,16 @@ public class ThemeParkTest {
 
     @Test
     public void hasAttractions() {
-        assertEquals(4, themePark.attractions.size());
+        assertEquals(4, themePark.getAttractions().size());
     }
 
     @Test
     public void hasStalls() {
-        assertEquals(3, themePark.stalls.size());
+        assertEquals(3, themePark.getStalls().size());
+    }
+
+    @Test
+    public void canGetAllReviewed() {
+        assertEquals(7, themePark.getAllReviewed().size());
     }
 }
