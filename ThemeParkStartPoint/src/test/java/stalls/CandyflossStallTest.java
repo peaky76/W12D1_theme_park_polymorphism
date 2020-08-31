@@ -12,7 +12,7 @@ public class CandyflossStallTest {
 
     @Before
     public void setUp() throws Exception {
-        candyflossStall = new CandyflossStall("Candy Land", "Harry Belafonte", ParkingSpot.A1);
+        candyflossStall = new CandyflossStall("Candy Land", "Harry Belafonte", ParkingSpot.A1, 5);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class CandyflossStallTest {
         assertEquals("Candy Land", candyflossStall.getName());
     }
 
-    @Test
+     @Test
     public void hasOwner() {
         assertEquals("Harry Belafonte", candyflossStall.getOwnerName());
     }
@@ -29,4 +29,11 @@ public class CandyflossStallTest {
     public void hasParkingSpot(){
         assertEquals(ParkingSpot.A1, candyflossStall.getParkingSpot());
     }
+
+    @Test
+    public void hasRating() {
+        assertEquals(5, candyflossStall.getRating());
+    }
+
+
 }
