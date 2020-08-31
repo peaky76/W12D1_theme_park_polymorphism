@@ -109,7 +109,4 @@ public class ThemeParkTest {
         assertEquals(false, allowedToVisit.contains(playground));
     }
 
-//    ThemePark has a method getAllAllowedFor(Visitor) which takes a Visitor
-//    and returns an ArrayList of IReviewed that the visitor is allowed to go on.
-
 }
