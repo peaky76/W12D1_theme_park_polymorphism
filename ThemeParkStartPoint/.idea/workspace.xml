@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a480cb-55e4-4f20-afa9-08b69dff4a93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IReviewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IReviewed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/PlaygroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/PlaygroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TobaccoStallTest">
     <configuration name="PlaygroundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -52,8 +50,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TobaccoStallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stalls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stalls" />
+      <option name="MAIN_CLASS_NAME" value="stalls.TobaccoStallTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TobaccoStallTest" />
         <item itemvalue="JUnit.PlaygroundTest" />
       </list>
     </recent_temporary>
@@ -84,21 +98,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1598883025356">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1598883282791">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598883025356" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1598883025354">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598883282791" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1598883282789">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598883025354" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1598883025353">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598883282789" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1598883282788">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598883025353" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1598883025355">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598883282788" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1598883282790">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598883025355" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598883282790" />
   </component>
 </project>
